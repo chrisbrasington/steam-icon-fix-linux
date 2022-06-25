@@ -22,6 +22,11 @@ namespace App
 
             HashSet<Game> icons = await GetIconUrls(_client, args[0], args[1]);
 
+            foreach(Game g in icons)
+            {
+                Console.WriteLine($"{g.name} {g.appid} {g.ToString()}");
+            }
+
             string[] files = Directory.GetFiles(shortcutDir, "*.desktop");
 
             foreach(string f in files)
