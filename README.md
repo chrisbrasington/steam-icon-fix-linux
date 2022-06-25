@@ -1,6 +1,12 @@
 # steam-icon-fix-linux
 
-Takes missing steam icons in linux and fixes them via steam API.
+## Problem
+
+Steam only downloads icons to the icon-cache during install, so if you move games around or share a drive between machines, you may be missing icons.
+
+## Fix
+
+This parses a shortcut folder and takes missing steam icons in linux, downloads them via the steam API, and sets them in the shortcut files.
 
 TODO: Figure out higher resolution icons? (but even steam is giving me low-res 16x16 icons atm...)
 
