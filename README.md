@@ -8,6 +8,8 @@ TODO: Figure out higher resolution icons? (but even steam is giving me low-res 1
 
 Using api: https://partner.steamgames.com/doc/webapi/IPlayerService
 
+![](.img/Screenshot%20from%202022-06-25%2017-05-18.png) ![](.img/Screenshot%20from%202022-06-25%2017-06-04.png)
+
 ![](.img/Screenshot%20from%202022-06-25%2016-50-55.png)
 
 ![](.img/Screenshot%20from%202022-06-25%2016-51-38.png)
